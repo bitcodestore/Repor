@@ -2,7 +2,7 @@
 <addon id="plugin.video.thecoachingshow"
        name="[COLOR gold]The Coaching Show[/COLOR][COLOR blue] 5[/COLOR].[COLOR yellow]4[/COLOR].[COLOR red]0[/COLOR]"
        version="0.0.1"
-       provider-name="Nzutdesign">
+       provider-name="BitCodeStore>
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -21,6 +21,12 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
+  
+      <extension point="xbmc.addon.repository" name="Repositorio Bitcodestore">
+        <info>https://raw.githubusercontent.com/bitcodestore/Repor/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/bitcodestore/Repor/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/bitcodestore/master/Repositorio/</datadir>
+    </extension>
 
   <extension point="xbmc.addon.metadata">
     <summary>Creado por Nzutdesign</summary>
