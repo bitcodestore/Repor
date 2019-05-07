@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.Mirepor" name="[COLOR lime]Mi Repositorio[/COLOR] Repo" version="1.0.1" provider-name="Bitcodestore">
     <extension point="xbmc.addon.repository" name="Repositorio Bitcodestore">
         <info>https://raw.githubusercontent.com/bitcodestore/Repor/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/bitcodestore/Repor/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/bitcodestore/master/Repositorio/</datadir>
+        <datadir zip="true">https://github.com/bitcodestore/bitcodestore</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Repositorio BitCodestore</summary>
